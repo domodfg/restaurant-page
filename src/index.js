@@ -1,3 +1,5 @@
 import "./style.css";
-import loadHome from "./home.js";
+import {loadHome, loadPage} from "./home.js";
+loadPage();
 loadHome();
+

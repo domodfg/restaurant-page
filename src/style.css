@@ -45,3 +45,27 @@ button {
     font-size: 1.8vw;
     font-family: 'Oswald', sans-serif;
 }
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    font-size: 2vw;
+    gap: 30px;
+}
+
+.info h1 {
+    font-size: 5vw;
+}
+
+.info h2 {
+    font-size: 3vw;
+    font-weight: 500;
+}
+
+.info p {
+    margin: 0;
+}
+
