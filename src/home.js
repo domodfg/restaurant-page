@@ -7,8 +7,12 @@ const loadPage = () => {
   const header = document.createElement("div");
   header.classList.add("header");
   const home = document.createElement("button");
+  home.classList.add("home");
   const menu = document.createElement("button");
+  menu.classList.add("menu");
   const contact = document.createElement("button");
+  contact.classList.add("contact");
+
   home.textContent = "Home";
   menu.textContent = "Menu";
   contact.textContent = "Contact";
