@@ -1,6 +1,7 @@
 import "./style.css";
 import {loadHome, loadPage} from "./home.js";
 import loadMenu from "./menu.js";
+import loadContact from "./contact.js";
 
 loadPage();
 loadHome();
@@ -27,4 +28,9 @@ home.addEventListener("click", () => {
 menu.addEventListener("click", () => {
     clearContent ();
     loadMenu();
+})
+
+contact.addEventListener("click", () => {
+    clearContent ();
+    loadContact();
 })

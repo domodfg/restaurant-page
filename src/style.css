@@ -15,6 +15,7 @@ body {
   min-height: 100vh;
   background-image: url("fishandchips.jpg");
   background-size: cover;
+  background-attachment:fixed;
 }
 
 .middle {
